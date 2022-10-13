@@ -6,6 +6,7 @@ public class Pool
     {
         Duck donaldDuck = new Duck();
         Duck electricDuck = new ElectronicDuck();
+        electricDuck.turnOff();
         quack(donaldDuck, electricDuck);
         swim(donaldDuck, electricDuck);
     }
